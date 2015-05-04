@@ -7,10 +7,10 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
+alias d="cd ~/develop"
 alias dl="cd ~/Downloads"
+alias dr="cd ~/Dropbox"
 alias dt="cd ~/Desktop"
-alias p="cd ~/Projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -29,6 +29,7 @@ fi
 
 # List all files colorized in long format
 alias l="ls -l ${colorflag}"
+alias ll="ls -l"
 
 # List all files colorized in long format, including dot files
 alias la="ls -la ${colorflag}"
