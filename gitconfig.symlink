@@ -35,11 +35,15 @@
 
 [apply]
 	# Detect whitespace errors when applying a patch
-	whitespace = fix
+	whitespace = nowarn
+
+[user]
+        name = sebastianhoitz
+        email = hoitz@komola.de
 
 [core]
 	# Use custom `.gitignore` and `.gitattributes`
-	excludesfile = /Users/shoitz/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	attributesfile = ~/.gitattributes
 	# Treat spaces before tabs, lines that are indented with 8 or more spaces, and all kinds of trailing whitespace as an error
 	whitespace = space-before-tab,indent-with-non-tab,trailing-space
