@@ -1424,8 +1424,12 @@
 	<true/>
 	<key>MinimumContrast</key>
 	<real>0.0</real>
+	<key>NSColorPanelMode</key>
+	<string>6</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/develop/dotfiles/init/iTerm2</string>
+	<string>~/setup/dotfiles/init/iTerm2</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{712, 470}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -1449,29 +1453,15 @@
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
-	<key>NSToolbar Configuration Terminal Toolbar</key>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
 	<dict>
-		<key>TB Display Mode</key>
-		<integer>1</integer>
-		<key>TB Icon Size Mode</key>
-		<integer>1</integer>
 		<key>TB Is Shown</key>
-		<integer>0</integer>
-		<key>TB Size Mode</key>
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>286 137 924 485 0 0 1280 778 </string>
-	<key>NSWindow Frame UKCrashReporter</key>
-	<string>80 194 592 584 0 0 1280 778 </string>
+	<string>269 110 924 485 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 4 1280 774 0 0 1280 778 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 99 970 678 0 0 1280 778 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>213 67 850 621 0 0 1280 778 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>133 63 850 621 0 0 1280 778 </string>
+	<string>0 800 1280 429 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1514,11 +1504,11 @@
 			<key>Ansi 10 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.54901963472366333</real>
+				<real>0.36862745881080627</real>
 				<key>Green Component</key>
-				<real>0.54901963472366333</real>
+				<real>0.74117648601531982</real>
 				<key>Red Component</key>
-				<real>0.54901963472366333</real>
+				<real>0.59607845544815063</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
@@ -1568,11 +1558,11 @@
 			<key>Ansi 2 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.40000000596046448</real>
+				<real>0.24313725531101227</real>
 				<key>Green Component</key>
-				<real>0.40000000596046448</real>
+				<real>0.49019607901573181</real>
 				<key>Red Component</key>
-				<real>0.40000000596046448</real>
+				<real>0.3960784375667572</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
@@ -2526,11 +2516,11 @@
 			<key>Ansi 10 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.54901963472366333</real>
+				<real>0.36862745881080627</real>
 				<key>Green Component</key>
-				<real>0.54901963472366333</real>
+				<real>0.74117648601531982</real>
 				<key>Red Component</key>
-				<real>0.54901963472366333</real>
+				<real>0.59607845544815063</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
@@ -2580,11 +2570,11 @@
 			<key>Ansi 2 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.40000000596046448</real>
+				<real>0.24313725531101227</real>
 				<key>Green Component</key>
-				<real>0.40000000596046448</real>
+				<real>0.49019607901573181</real>
 				<key>Red Component</key>
-				<real>0.40000000596046448</real>
+				<real>0.3960784375667572</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
@@ -2686,7 +2676,7 @@
 				<real>0.89919352531433105</real>
 			</dict>
 			<key>Bonjour Service Address</key>
-			<string>192.168.178.98</string>
+			<string>10.8.80.52</string>
 			<key>Character Encoding</key>
 			<integer>4</integer>
 			<key>Close Sessions On End</key>
@@ -2694,7 +2684,7 @@
 			<key>Columns</key>
 			<integer>120</integer>
 			<key>Command</key>
-			<string>ssh 192.168.178.98</string>
+			<string>ssh 10.8.80.52</string>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -2722,7 +2712,7 @@
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
-			<string>Sebastian Hoitzs MacBook Pro</string>
+			<string>Barad-Dur (2)</string>
 			<key>Disable Printing</key>
 			<false/>
 			<key>Disable Smcup Rmcup</key>
@@ -2741,7 +2731,7 @@
 				<real>0.62745100259780884</real>
 			</dict>
 			<key>Guid</key>
-			<string>D07924E2-A078-4DEF-A4C8-F5A66073F4C9</string>
+			<string>F1CB3F99-3E31-4AEB-AFFF-3DDB52DEDC62</string>
 			<key>Hide After Opening</key>
 			<false/>
 			<key>Horizontal Spacing</key>
@@ -2831,7 +2821,7 @@
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
-			<string>Sebastian Hoitzs MacBook Pro</string>
+			<string>Barad-Dur (2)</string>
 			<key>Non Ascii Font</key>
 			<string>InconsolataForPowerline-dz 13</string>
 			<key>Non-ASCII Anti Aliased</key>
@@ -3060,7 +3050,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/hoitz/develop/dotfiles/init/iTerm2</string>
+	<string>/Users/shoitz/setup/dotfiles/init/iTerm2</string>
 	<key>PromptOnClose</key>
 	<false/>
 	<key>PromptOnQuit</key>
@@ -3082,9 +3072,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-05-04T18:35:42Z</date>
-	<key>SUSkippedVersion</key>
-	<string>2.0.0.20141103</string>
+	<date>2015-05-05T07:19:56Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -3158,6 +3146,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>1.0.0.20140421</string>
+	<string>2.0</string>
 </dict>
 </plist>
