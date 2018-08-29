@@ -1,0 +1,7 @@
+DEFAULT_USER=`whoami`
+
+# Set up aliases
+alias d="cd ~/develop"
+alias dl="cd ~/Downloads"
+alias dr="cd ~/Dropbox"
+alias dt="cd ~/Desktop"
