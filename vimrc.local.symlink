@@ -14,7 +14,7 @@ nmap <leader>c<space> V,c<space>0
 nmap <leader>op :CtrlP<CR>
 nmap <leader>oo :CtrlPBuffer<CR>
 " grep in folder
-nmap <leader>og :Ack!<space>
+nmap <leader>og :Ag!<space>
 nmap <space> :w<CR>
 " vertical split
 nnoremap <leader>w <C-w>v<C-w>l
