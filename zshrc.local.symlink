@@ -5,3 +5,12 @@ alias d="cd ~/develop"
 alias dl="cd ~/Downloads"
 alias dr="cd ~/Dropbox"
 alias dt="cd ~/Desktop"
+
+[[ -d "$HOME/develop/komola/enterprise/prismabox-scripts" ]] && export PATH=$PATH:$HOME/develop/komola/enterprise/prismabox-scripts
+
+# RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# Load NVM
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
